@@ -1,0 +1,71 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.question{
+  width: 100%;
+  background-color: #eee;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.yes-box{
+  display: inline-block;
+  width: 70px;
+  height: 60px;
+  background-color: green;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.no-box{
+  display: inline-block;
+  width: 70px;
+  height: 60px;
+  background-color: orange;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.undecided-box{
+  display: inline-block;
+  width: 70px;
+  height: 60px;
+  background-color: #ddd;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.response-count-box{
+  display: inline-block;
+  width: 70px;
+  height: 60px;
+  background-color: purple;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.small-label{
+  font-size: 12px;
+}
+
+.user-name-label{
+  color: red;
+  display: inline-block;
+}
+.date-label{
+  color: blue;
+  display: inline-block;
+}
+
+.navbar {
+  background-color: #EEE;
+}
+
+a:hover {
+   text-decoration:none;
+ }

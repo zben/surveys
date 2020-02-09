@@ -1,0 +1,24 @@
+%div.question
+  =link_to question do
+    .row
+      .col-9
+        %h3=question.content
+        created by
+        .user-name-label= question.user.name
+        on
+        .date-label= question.created_at.to_date
+      .col-1
+        .response-count-box
+          =total_count = question.yes_count + question.no_count
+          .small-label answers
+          -total_count = 1 if total_count == 0
+          - yes_percentage = (question.yes_count.to_f / total_count).round(2) * 100
+          - no_percentage = (question.no_count.to_f / total_count).round(2) * 100
+      .col-1
+        .yes-box
+          = number_to_percentage yes_percentage, precision: 0
+          .small-label Yes's
+      .col-1
+        .no-box
+          = number_to_percentage no_percentage, precision: 0
+          .small-label No's
