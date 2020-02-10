@@ -1,5 +1,7 @@
 ## SimpleSurvey
 
+![image](https://user-images.githubusercontent.com/1301575/74172693-876ec900-4be5-11ea-85ac-72ea26c4855b.png)
+
 The is a simple app that allows user to create any number of surveys of a single question that has yes or no answers. User can see the yes and no percentages of each survey on home page. User can re-answer a survey at any time. 
 
 ### Dependencies
